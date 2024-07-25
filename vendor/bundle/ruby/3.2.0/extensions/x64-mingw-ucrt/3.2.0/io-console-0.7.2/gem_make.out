@@ -1,0 +1,25 @@
+current directory: F:/dgtl-factory/learn/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: F:/dgtl-factory/learn/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240725-440-88rgt9 sitelibdir\=./.gem.20240725-440-88rgt9 clean
+
+current directory: F:/dgtl-factory/learn/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240725-440-88rgt9 sitelibdir\=./.gem.20240725-440-88rgt9
+generating console-x64-mingw-ucrt.def
+compiling console.c
+linking shared-object io/console.so
+
+current directory: F:/dgtl-factory/learn/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240725-440-88rgt9 sitelibdir\=./.gem.20240725-440-88rgt9 install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240725-440-88rgt9/io
+
+current directory: F:/dgtl-factory/learn/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240725-440-88rgt9 sitelibdir\=./.gem.20240725-440-88rgt9 clean
