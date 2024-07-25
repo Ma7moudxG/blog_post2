@@ -1,3 +1,8 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<%= link_to "About", about_path%>
+<div class="container card">
+  <h1>My Personal Home Page</h1>
+  <p>You can read more about me, or checkout my blog.</p>
+  <div class="card-actions mb-3">
+    <%= link_to "About Me", about_path, class:"btn btn-secondary" %>
+    <%= link_to "Blog", posts_path, class:"btn btn-primary" %>
+  </div>
+</div>
